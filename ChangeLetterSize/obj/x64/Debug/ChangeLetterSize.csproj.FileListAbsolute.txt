@@ -1,0 +1,16 @@
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\x64\Debug\ChangeLetterSize.exe.config
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\x64\Debug\ChangeLetterSize.exe
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\x64\Debug\ChangeLetterSize.pdb
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\x64\Debug\ChangeLetterSize.Form1.resources
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\x64\Debug\ChangeLetterSize.Marker.resources
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\x64\Debug\ChangeLetterSize.Properties.Resources.resources
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\x64\Debug\ChangeLetterSize.csproj.GenerateResource.Cache
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\x64\Debug\ChangeLetterSize.exe
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\x64\Debug\ChangeLetterSize.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\x64\Debug\ChangeLetterSize.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\Visual Studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\x64\Debug\x64\liblept172.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\x64\Debug\x64\libtesseract304.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\x64\Debug\x86\liblept172.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\x64\Debug\x86\libtesseract304.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\x64\Debug\Tesseract.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\x64\Debug\Tesseract.xml

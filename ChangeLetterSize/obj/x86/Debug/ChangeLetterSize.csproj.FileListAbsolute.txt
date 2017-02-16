@@ -1,0 +1,10 @@
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\x86\Debug\ChangeLetterSize.exe.config
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\x86\Debug\ChangeLetterSize.exe
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\x86\Debug\ChangeLetterSize.pdb
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\x86\Debug\tessnet2_32.dll
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\x86\Debug\ChangeLetterSize.Form1.resources
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\x86\Debug\ChangeLetterSize.Marker.resources
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\x86\Debug\ChangeLetterSize.Properties.Resources.resources
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\x86\Debug\ChangeLetterSize.csproj.GenerateResource.Cache
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\x86\Debug\ChangeLetterSize.exe
+C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\x86\Debug\ChangeLetterSize.pdb
