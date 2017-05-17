@@ -43,18 +43,28 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.panelPicureBox = new System.Windows.Forms.Panel();
             this.splitContainer = new System.Windows.Forms.SplitContainer();
+            this.panelPicureBox = new System.Windows.Forms.Panel();
             this.listViewWords = new System.Windows.Forms.ListView();
+            this.readTextButton = new System.Windows.Forms.Button();
+            this.saveImageButton = new System.Windows.Forms.Button();
+            this.tabControlPicText = new System.Windows.Forms.TabControl();
+            this.tabPagePicText = new System.Windows.Forms.TabPage();
+            this.tabPageWordList = new System.Windows.Forms.TabPage();
+            this.textBoxPicText = new System.Windows.Forms.TextBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.panelPicureBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).BeginInit();
             this.splitContainer.Panel1.SuspendLayout();
             this.splitContainer.Panel2.SuspendLayout();
             this.splitContainer.SuspendLayout();
+            this.panelPicureBox.SuspendLayout();
+            this.tabControlPicText.SuspendLayout();
+            this.tabPagePicText.SuspendLayout();
+            this.tabPageWordList.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBoxSource
@@ -123,12 +133,14 @@
             // 
             // buttonTest
             // 
-            this.buttonTest.Location = new System.Drawing.Point(6, 6);
+            this.buttonTest.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonTest.Location = new System.Drawing.Point(671, 7);
             this.buttonTest.Name = "buttonTest";
             this.buttonTest.Size = new System.Drawing.Size(75, 23);
             this.buttonTest.TabIndex = 6;
             this.buttonTest.Text = "Test";
             this.buttonTest.UseVisualStyleBackColor = true;
+            this.buttonTest.Visible = false;
             this.buttonTest.Click += new System.EventHandler(this.buttonTest_Click);
             // 
             // pictureBox
@@ -136,18 +148,18 @@
             this.pictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox.Location = new System.Drawing.Point(0, 0);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(599, 325);
+            this.pictureBox.Size = new System.Drawing.Size(511, 367);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox.TabIndex = 7;
             this.pictureBox.TabStop = false;
             // 
             // buttonTest2
             // 
-            this.buttonTest2.Location = new System.Drawing.Point(87, 6);
+            this.buttonTest2.Location = new System.Drawing.Point(6, 6);
             this.buttonTest2.Name = "buttonTest2";
             this.buttonTest2.Size = new System.Drawing.Size(75, 23);
             this.buttonTest2.TabIndex = 8;
-            this.buttonTest2.Text = "Test Marker";
+            this.buttonTest2.Text = "Marker";
             this.buttonTest2.UseVisualStyleBackColor = true;
             this.buttonTest2.Click += new System.EventHandler(this.buttonTest2_Click);
             // 
@@ -159,7 +171,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(796, 397);
+            this.tabControl1.Size = new System.Drawing.Size(762, 439);
             this.tabControl1.TabIndex = 9;
             // 
             // tabPage1
@@ -180,16 +192,38 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.saveImageButton);
+            this.tabPage2.Controls.Add(this.readTextButton);
             this.tabPage2.Controls.Add(this.splitContainer);
             this.tabPage2.Controls.Add(this.buttonTest);
             this.tabPage2.Controls.Add(this.buttonTest2);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(788, 371);
+            this.tabPage2.Size = new System.Drawing.Size(754, 413);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Pics";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // splitContainer
+            // 
+            this.splitContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.splitContainer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitContainer.Location = new System.Drawing.Point(3, 35);
+            this.splitContainer.Name = "splitContainer";
+            // 
+            // splitContainer.Panel1
+            // 
+            this.splitContainer.Panel1.Controls.Add(this.panelPicureBox);
+            // 
+            // splitContainer.Panel2
+            // 
+            this.splitContainer.Panel2.Controls.Add(this.tabControlPicText);
+            this.splitContainer.Size = new System.Drawing.Size(748, 375);
+            this.splitContainer.SplitterDistance = 551;
+            this.splitContainer.TabIndex = 10;
             // 
             // panelPicureBox
             // 
@@ -200,41 +234,93 @@
             this.panelPicureBox.Controls.Add(this.pictureBox);
             this.panelPicureBox.Location = new System.Drawing.Point(3, 3);
             this.panelPicureBox.Name = "panelPicureBox";
-            this.panelPicureBox.Size = new System.Drawing.Size(599, 325);
+            this.panelPicureBox.Size = new System.Drawing.Size(511, 367);
             this.panelPicureBox.TabIndex = 9;
-            // 
-            // splitContainer
-            // 
-            this.splitContainer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.splitContainer.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.splitContainer.Location = new System.Drawing.Point(3, 35);
-            this.splitContainer.Name = "splitContainer";
-            // 
-            // splitContainer.Panel1
-            // 
-            this.splitContainer.Panel1.Controls.Add(this.panelPicureBox);
-            // 
-            // splitContainer.Panel2
-            // 
-            this.splitContainer.Panel2.Controls.Add(this.listViewWords);
-            this.splitContainer.Size = new System.Drawing.Size(782, 333);
-            this.splitContainer.SplitterDistance = 607;
-            this.splitContainer.TabIndex = 10;
             // 
             // listViewWords
             // 
             this.listViewWords.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listViewWords.Location = new System.Drawing.Point(0, 0);
+            this.listViewWords.Location = new System.Drawing.Point(3, 3);
             this.listViewWords.Name = "listViewWords";
-            this.listViewWords.Size = new System.Drawing.Size(169, 331);
+            this.listViewWords.Size = new System.Drawing.Size(196, 299);
             this.listViewWords.TabIndex = 0;
             this.listViewWords.UseCompatibleStateImageBehavior = false;
+            // 
+            // readTextButton
+            // 
+            this.readTextButton.Enabled = false;
+            this.readTextButton.Location = new System.Drawing.Point(87, 6);
+            this.readTextButton.Name = "readTextButton";
+            this.readTextButton.Size = new System.Drawing.Size(75, 23);
+            this.readTextButton.TabIndex = 11;
+            this.readTextButton.Text = "Read Text";
+            this.readTextButton.UseVisualStyleBackColor = true;
+            this.readTextButton.Click += new System.EventHandler(this.readTextButton_Click);
+            // 
+            // saveImageButton
+            // 
+            this.saveImageButton.Enabled = false;
+            this.saveImageButton.Location = new System.Drawing.Point(168, 6);
+            this.saveImageButton.Name = "saveImageButton";
+            this.saveImageButton.Size = new System.Drawing.Size(75, 23);
+            this.saveImageButton.TabIndex = 12;
+            this.saveImageButton.Text = "Save Image";
+            this.saveImageButton.UseVisualStyleBackColor = true;
+            this.saveImageButton.Click += new System.EventHandler(this.saveImageButton_Click);
+            // 
+            // tabControlPicText
+            // 
+            this.tabControlPicText.Controls.Add(this.tabPagePicText);
+            this.tabControlPicText.Controls.Add(this.tabPageWordList);
+            this.tabControlPicText.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPicText.Location = new System.Drawing.Point(0, 0);
+            this.tabControlPicText.Name = "tabControlPicText";
+            this.tabControlPicText.SelectedIndex = 0;
+            this.tabControlPicText.Size = new System.Drawing.Size(191, 373);
+            this.tabControlPicText.TabIndex = 1;
+            // 
+            // tabPagePicText
+            // 
+            this.tabPagePicText.Controls.Add(this.textBoxPicText);
+            this.tabPagePicText.Location = new System.Drawing.Point(4, 22);
+            this.tabPagePicText.Name = "tabPagePicText";
+            this.tabPagePicText.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPagePicText.Size = new System.Drawing.Size(183, 347);
+            this.tabPagePicText.TabIndex = 0;
+            this.tabPagePicText.Text = "Readed  Text";
+            this.tabPagePicText.UseVisualStyleBackColor = true;
+            // 
+            // tabPageWordList
+            // 
+            this.tabPageWordList.Controls.Add(this.listViewWords);
+            this.tabPageWordList.Location = new System.Drawing.Point(4, 22);
+            this.tabPageWordList.Name = "tabPageWordList";
+            this.tabPageWordList.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageWordList.Size = new System.Drawing.Size(202, 305);
+            this.tabPageWordList.TabIndex = 1;
+            this.tabPageWordList.Text = "Word List";
+            this.tabPageWordList.UseVisualStyleBackColor = true;
+            // 
+            // textBoxPicText
+            // 
+            this.textBoxPicText.BackColor = System.Drawing.Color.White;
+            this.textBoxPicText.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxPicText.Location = new System.Drawing.Point(3, 3);
+            this.textBoxPicText.Multiline = true;
+            this.textBoxPicText.Name = "textBoxPicText";
+            this.textBoxPicText.ReadOnly = true;
+            this.textBoxPicText.Size = new System.Drawing.Size(177, 341);
+            this.textBoxPicText.TabIndex = 0;
+            // 
+            // toolTip1
+            // 
+            this.toolTip1.ShowAlways = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(796, 397);
+            this.ClientSize = new System.Drawing.Size(762, 439);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -248,12 +334,16 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
-            this.panelPicureBox.ResumeLayout(false);
-            this.panelPicureBox.PerformLayout();
             this.splitContainer.Panel1.ResumeLayout(false);
             this.splitContainer.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).EndInit();
             this.splitContainer.ResumeLayout(false);
+            this.panelPicureBox.ResumeLayout(false);
+            this.panelPicureBox.PerformLayout();
+            this.tabControlPicText.ResumeLayout(false);
+            this.tabPagePicText.ResumeLayout(false);
+            this.tabPagePicText.PerformLayout();
+            this.tabPageWordList.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -276,6 +366,13 @@
         private System.Windows.Forms.Panel panelPicureBox;
         private System.Windows.Forms.SplitContainer splitContainer;
         private System.Windows.Forms.ListView listViewWords;
+        private System.Windows.Forms.Button saveImageButton;
+        private System.Windows.Forms.Button readTextButton;
+        private System.Windows.Forms.TabControl tabControlPicText;
+        private System.Windows.Forms.TabPage tabPagePicText;
+        private System.Windows.Forms.TextBox textBoxPicText;
+        private System.Windows.Forms.TabPage tabPageWordList;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 

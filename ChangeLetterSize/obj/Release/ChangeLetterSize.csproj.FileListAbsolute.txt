@@ -1,9 +1,0 @@
-c:\users\user\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\Release\ChangeLetterSize.exe.config
-c:\users\user\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\Release\ChangeLetterSize.exe
-c:\users\user\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\bin\Release\ChangeLetterSize.pdb
-c:\users\user\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\Release\ChangeLetterSize.Form1.resources
-c:\users\user\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\Release\ChangeLetterSize.Properties.Resources.resources
-c:\users\user\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\Release\ChangeLetterSize.csproj.GenerateResource.Cache
-c:\users\user\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\Release\ChangeLetterSize.exe
-c:\users\user\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\Release\ChangeLetterSize.pdb
-C:\Users\USER\documents\visual studio 2015\Projects\ChangeLetterSize\ChangeLetterSize\obj\Release\ChangeLetterSize.csprojResolveAssemblyReference.cache

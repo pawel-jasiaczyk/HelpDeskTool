@@ -155,6 +155,9 @@
         AAAH8AAAgPgAAEAYOEBgBBhAfAIIAH+DAABHw4AAR+PAAEPj4ABAA/AAYAP4APAH/AA=
 </value>
   </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 18</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAGhAAAAEAIADoBgAAFgAAACgAAAAaAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
